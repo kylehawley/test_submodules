@@ -178,3 +178,7 @@ function viewRawRecordWithSearch({ component, env }) {
 debugRegistry
   .category("form")
   .add("viewRawRecord", viewRawRecordWithSearch, { force: true });
+
+
+
+// Test send a commit to main and see it on staging.
